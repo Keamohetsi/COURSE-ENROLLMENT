@@ -1,0 +1,74 @@
+h1 {
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: "Fredoka One", Italics;
+    color: #AB1449;
+    letter-spacing: 0.1em;
+  }
+  
+  p {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #4f2fcf;
+    line-height: 0.1em;
+    font-weight: bold;
+  }
+  
+  p span {
+    background:#2b4d0e;
+    padding:0 10px;
+  }
+  
+  input {
+    margin-bottom: 5%;
+  }
+  
+  input:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  input, button {
+    padding: 5%;
+    width: 100%;
+  }
+  
+  .login-container {
+    background-color: rgba(25, 185, 44, 0.855);
+    padding: 7%;
+    box-shadow: 0 4px 8px 0 rgb(73, 13, 177);
+    width: 39vw;
+    margin: auto;
+    height: 73vh;
+    margin-top: 17vh;
+  }
+  
+  #submit, #create-account-button {
+    background-color: #9d1313;
+    color: chartreuse;
+    border: none;
+    margin-top: 7%;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  
+  #sign_up {
+    border: none;
+  }
+  
+  #create-account {
+    display: none;
+  }
+  
+  #return-button {
+    background-color: #9d1313;
+    color: chartreuse;
+    text-decoration: underline;
+    border: none;
+    margin-top: 5%;
+  }
